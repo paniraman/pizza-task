@@ -1,0 +1,21 @@
+img{
+    height: 122px;
+    width: 110px;
+}
+#header{
+    background-color: rgb(231, 128, 110);
+}
+#list{
+    background-color: rgb(52, 71, 71);
+    position: relative;
+    height: 40em;
+}
+    #tile1{
+        border-radius: 25px;
+        border: 2px solid #171817;
+        padding: 20px; 
+        background-color: white;
+        width: 400px;
+        height: 450px;  
+        border-style: dotted;
+    }

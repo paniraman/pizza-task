@@ -1,0 +1,29 @@
+img{
+    height: 122px;
+    width: 110px;
+}
+#header{
+    background-color: rgb(231, 128, 110);
+}
+#list{
+    background-color: rgb(52, 71, 71);
+    position: relative;
+    height: 40em;
+}
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    border-radius: 1em;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow:rgb(171, 119, 212) 3px 2px;
+  }
+  
+  td, th {  
+    text-align: center;
+    padding: 1em;
+    background:white;
+    border-bottom: 2px solid grey; 
+  }
+  
+ 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <div id="header" class="row">
+        <div class="col-1"> <img [src]="myImage" alt="pizza" /></div>
+        <div class="col-3">
+            <h2 style="font-family: 'Courier New', Courier, monospace;"><b>Pizza Hub</b></h2>
+            <b>Madhapur<br>Next Gallery Mall<br>Hyderabad-500081</b>
+        </div>
+        <div class="col-6"></div>
+        <div align="left" class="col-2"><br>
+            <b><label>Date :</label>{{date}}</b><br>
+            <b><label>Time :</label>{{time | date : 'hh:mm:ss a'}}</b>
+        </div>
+    </div>
+    <div id="list" class="row">
+        <div class="col-4"></div>
+        <div  class="col-4"><br>
+            <div id="tile1">
+                <div class="row">
+                    <div align="center" class="col-12">
+                        <h3 style="font-family:'Courier New', Courier, monospace"><u><b>Delivery Details</b></u></h3>
+                    </div>
+                </div>
+                <div  class="row">
+                    <label style="text-align: right;" class="col-6">Order No :</label>
+                    <div class="col-4">{{show.ord_no}}</div>
+                </div>
+                <div  class="row">
+                    <label style="text-align: right;" class="col-6">Customer Name :</label>
+                    <div class="col-4">{{show.name}}</div>
+                </div>
+                <div class="row">
+                    <label style="text-align: right;" class="col-6">Address :</label>
+                    <div class="col-4">{{show.address}}</div>
+                </div>
+                <div class="row">
+                    <label style="text-align: right;" class="col-6">No of Items :</label>
+                    <div class="col-4">{{show.items}}</div>
+                </div>
+                <div class="row">
+                    <label style="text-align: right;" class="col-6">Items :</label>
+                    <div class="col-4">{{show.item_names}}</div>
+                </div>
+                <div  class="row">
+                    <label style="text-align: right;" class="col-6">total :</label>
+                    <div class="col-4">{{show.amount}}</div>
+                </div><br>
+                <div  class="row">
+                    <div class="col-5"></div>
+                   <button (click)="close()" class="btn btn-primary col-3">Ok</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</body>
+
+</html>
